@@ -12,6 +12,15 @@ I'm also surprised that the generated code does not use semicolons.  That's reco
 npm create vite-extra@latest vite-react-server -- --template ssr-react
 ```
 
+## Changes I Made
+
+1. Installed TypeScript and various types packages.
+2. Added `.tsconfig.json` and `.tsconfig.node.json`.
+3. Changed `.jsx` files to `.tsx`.
+4. Updated `server.js` to have imports at the top.
+
+I wasn't able to update the `server.js` to `server.ts` as it `Cannot find module` when I do that.
+
 ## How to Run
 
 ```
